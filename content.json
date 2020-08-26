@@ -1,1 +1,13 @@
-{}
+{
+  "name": "my blog",
+  "index": {
+    "title": "my blog",
+    "text": "my blog list"
+  },
+  "blog": [
+    {
+      "title": "my first blog",
+      "text": "blog no 1 from frontaid"
+    }
+  ]
+}
