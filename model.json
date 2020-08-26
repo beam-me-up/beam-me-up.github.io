@@ -1,26 +1,19 @@
 {
-  ":name": "FrontAid CMS Example Model",
-  ":description": "This is a very basic example of a FrontAid CMS model file. Feel free to update it according to your needs.",
-  "project": {
-    ":name": "name",
+  ":name": "Example Website",
+  "name": {
+    ":description": "Website name",
     ":type": "line"
   },
-  "information": {
-    "company": {
-      ":type": "line"
-    },
-    "description": {
-      ":type": "text"
-    }
+  "index": {
+    ":description": "Content for the index page",
+    "title": {":type": "line"},
+    "text":  {":type": "text"}
   },
-  "list-of-work": {
+  "blog": {
+    ":description": "List of blog posts",
     ":items": {
-      "item1": {
-        ":type": "line"
-      },
-      "item2": {
-        ":type": "line"
-      }
+      "title": {":type": "line"},
+      "text":  {":type": "text"}
     }
   }
 }
