@@ -5,6 +5,11 @@
     "text": "my blog list"
   },
   "blog": [
+    {},
+    {
+      "title": "my second blog",
+      "text": "my text of second blog"
+    },
     {
       "title": "my first blog",
       "text": "blog no 1 from frontaid"
